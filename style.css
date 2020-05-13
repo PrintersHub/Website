@@ -38,7 +38,7 @@ body{
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
   width: 250px;
-  border-color: #349682;
+  border-color: #FFFFFF;
 }
 .box input[type = "submit"]{
   border:1;
