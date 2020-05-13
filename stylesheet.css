@@ -50,7 +50,7 @@ body{
   padding: 14px 40px;
   outline: none;
   color: white;
-  border-radius: 22px;
+  border-radius: 20px;
   transition: 0.25s;
   cursor: pointer;
 }
