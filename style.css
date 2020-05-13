@@ -58,3 +58,8 @@ body{
   background: #3abc99;
   color: black
 }
+
+.navbar{
+  overflow = hidden;
+  background = #333;
+}
