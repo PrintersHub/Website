@@ -67,7 +67,7 @@ body{
 .navbar a{
   float: left;
   font-size: 16px;
-  color: #c9c9c9;
+  color: #349682;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -82,7 +82,7 @@ body{
   font-size: 16px;
   border: none;
   outline: none;
-  color: #c9c9c9;
+  color: #349682;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -90,13 +90,13 @@ body{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn{
-  background-color: #ff6363;
+  background-color: #349682;
 }
 
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #349682;
   min-with: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -112,7 +112,7 @@ body{
 }
 
 .dropdown-content a:hover{
-  background-color: #ddd;
+  background-color: #349682;
 }
 
 .dropdown-content:hover{
