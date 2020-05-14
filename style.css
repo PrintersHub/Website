@@ -32,7 +32,7 @@ body{
   padding: 14px 10px;
   width: 200px;
   outline: none;
-  color: white;
+  color: #fff;
   border-radius: 22px;
   transition: 1s;
 }
@@ -49,19 +49,19 @@ body{
   border: 2px solid #349682;
   padding: 14px 40px;
   outline: none;
-  color: white;
+  color: #fff;
   border-radius: 15px;
   transition: 1s;
   cursor: pointer;
 }
 .box input[type = "submit"]:hover{
   background: #349682;
-  color: black
+  color: #000;
 }
 
 .navbar{
-  overflow = hidden;
-  background = #333;
+  overflow: hidden;
+  background: #333;
 }
 
 .navbar a{
