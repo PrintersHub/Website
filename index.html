@@ -18,7 +18,7 @@
 			<div class="navbar">
 				<a href="">Home</a>
 				<a href="">Contacts</a>
-				<div class="dropdown">
+				<div class="dropdown" id="dropdown">
 					<button class="dropbtn">log in
 						<i class="fa fa-caret-down"></i>
 					</button>
@@ -42,5 +42,16 @@
 	
 			</FONT>
 		</div>
+		
+		<script>
+			const dropbtn = document.getElementById("dropdown");
+			
+			dropbtn.addEventListener('click', menu());
+			
+			function menu(e){
+				e.preventDefault();
+				document.querrySelector('.dropdown').setAttribute('display', 'box');
+			}
+		</script>
  	</BODY>
 </HTML>
