@@ -145,12 +145,18 @@ body{
 }
 
 input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #349682;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #fff;
+  border-radius: 22px;
+  transition: 1s;
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -164,25 +170,30 @@ hr {
 }
 
 .registerbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
+  border:1;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #349682;
+  padding: 14px 40px;
+  outline: none;
+  color: #fff;
+  border-radius: 15px;
+  transition: 1s;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
 }
 
 .registerbtn:hover {
-  opacity:1;
+  background: #349682;
+  color: #000;
 }
 
 a {
-  color: dodgerblue;
+  color: #349682;
 }
 
 .signin {
-  background-color: #f1f1f1;
+  background-color: #349682;
   text-align: center;
 }
