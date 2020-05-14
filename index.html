@@ -49,8 +49,12 @@
 			dropbtn.addEventListener('click', menu());
 			
 			function menu(e){
-				e.preventDefault();
-				document.querySelector('.dropdown-content').setAttribute('display', 'box');
+				try{
+					e.preventDefault();
+					document.querySelector('.dropdown-content').setAttribute('display', 'box');
+				}catch{
+					console.log(err)	
+				}
 			}
 		</script>
  	</BODY>
