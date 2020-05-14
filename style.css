@@ -67,7 +67,7 @@ body{
 .navbar a{
   float: left;
   font-size: 16px;
-  color: #fff;
+  color: #c9c9c9;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -82,7 +82,7 @@ body{
   font-size: 16px;
   border: none;
   outline: none;
-  color: #fff;
+  color: #c9c9c9;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
