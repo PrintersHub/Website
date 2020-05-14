@@ -51,7 +51,10 @@
 			function menu(e){
 				console.log("menu started");
 				try{
-					document.getElementByClassName('dropdown-content').setAttribute('display', 'block');
+					let matches = document.getElementByClassName('dropdown-content')
+					for(let i = 0; i < matches.length; i++){
+						matches[i].setAttribute('display', 'block');
+					}
 				}catch(err){
 					console.log(err);	
 				}
