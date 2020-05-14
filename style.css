@@ -88,3 +88,13 @@ body{
   font-family: inherit;
   margin: 0;
 }
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+  bckground-color: #ff6363;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
