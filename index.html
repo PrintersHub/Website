@@ -52,7 +52,9 @@
 				console.log("menu started");
 				try{
 					let matches = document.getElementsByClassName('dropdown-content');
+					console.log(matches);
 					for(let i = 0; i < matches.length; i++){
+						console.log(matches[i]);
 						matches[i].setAttribute('display', 'block');
 					};
 				}catch(err){
