@@ -115,7 +115,7 @@ body{
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown-content:hover{
   display: block;
 }
 
