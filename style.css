@@ -118,3 +118,15 @@ body{
 .dropdown:hover .dropdown-content{
   display: block;
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #3b3b3b;
+  padding: 10px;
+}
+
+.grid-item-01{
+  grid-column: 1 / 3
+}
