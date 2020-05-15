@@ -27,7 +27,7 @@
 	<a class href="index.html"> Back </a>
 	</br>
 
-    <form class="box">
+    <form class="box" id="loginForm">
       <h1>Login</h1>
       <input id="user" type="text" name="" placeholder="Username">
       <input id="pw" type="password" name="" placeholder="Password">
@@ -35,6 +35,8 @@
     </form>
 
 <script>
+	document.getElementById("loginForm").addEventListener("submit", submit);
+	
 	function submit(){
 		let user = document.querySelector("#user").value;
 		let pw = document.querySelector("#pw").value;
