@@ -120,11 +120,6 @@ body{
   color: #000;
 }
 
-.dropdown-content:hover{
-  background-color: #349682;
-  color: #000;
-}
-
 .grid-container{
   display: grid;
   grid-template-columns: auto auto;
