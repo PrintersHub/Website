@@ -68,6 +68,7 @@ body{
 .navbar a{
   float: left;
   font-size: 16px;
+  border-radius; 22px;
   color: #349682;
   text-align: center;
   padding: 14px 16px;
@@ -82,6 +83,7 @@ body{
 .dropdown .dropbtn{
   font-size: 16px;
   border: none;
+  border-radius: 22px;
   outline: none;
   color: #349682;
   padding: 14px 16px;
@@ -91,7 +93,8 @@ body{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn{
-  background-color: #349682;
+  background: #349682;
+  color: #000;
 }
 
 .dropdown-content{
@@ -113,11 +116,13 @@ body{
 }
 
 .dropdown-content a:hover{
-  background-color: #349682;
+  background: #349682;
+  color: #000;
 }
 
 .dropdown-content:hover{
-  display: block;
+  background: #349682;
+  color: #000;
 }
 
 .grid-container{
