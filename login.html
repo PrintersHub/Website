@@ -32,17 +32,25 @@
 	<a class href="index.html"> Back </a>
 	</br>
 
-    <form class="box" action="index.html" method="post">
+    <form class="box">
       <h1>Login</h1>
-      <input type="text" name="" placeholder="Username">
-      <input type="password" name="" placeholder="Password">
-      <input type="submit" name="" value="Login">
+      <input id="user" type="text" name="" placeholder="Username">
+      <input id="pw" type="password" name="" placeholder="Password">
+      <input type="submit" onclick="submit()" name="" value="Login">
     </form>
 
 <FONT FACE="CALIBRI">
 
 <script>
-	
+	function submit(){
+		let user = document.querySelector("#user").value;
+		let pw = document.querySelector("#pw").value;
+		
+		document.cookie = "username=" + user;
+		document.cookie = "password=" + pw;
+		
+		window.location.href = "./index.html"
+	}
 </script>
 
 </BODY>
