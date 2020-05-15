@@ -15,6 +15,14 @@
 		let cookies = document.cookie;
 		
 		console.log(cookies);
+		
+		function searchCookie(cookie){
+			let name = cookie + "="
+			let cookiesDec = decodeURIcomponen(cookies);
+			console.log(cookiesDec, cookies, name);
+			cookiesDec = cookiesDec.Split(";");
+			console.log(cookiesDec);
+		}
 	</script>
 </HEAD>
 
@@ -49,8 +57,13 @@
 		</div>
 		
 		<script>
+			const drop = document.getElementById("dropdownContent");
+			
+			if(searchCookie(dropdownMenu) == "true"){
+				drop.classList.toggle("show");
+			}
+			
 			function menu(){
-				const drop = document.getElementById("dropdownContent");
 				drop.classList.toggle("show");
 				if(document.getElementsByClassName("show").length != 0){
 					document.cookie = "dropdownMenu=true"
