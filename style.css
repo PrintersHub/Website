@@ -68,7 +68,7 @@ body{
 .navbar a{
   float: left;
   font-size: 16px;
-  border-radius; 22px;
+  border-radius; 0px;
   color: #349682;
   text-align: center;
   padding: 14px 16px;
@@ -83,9 +83,9 @@ body{
 .dropdown .dropbtn{
   font-size: 16px;
   border: none;
-  border-radius: 22px;
+  border-radius: 0px;
   outline: none;
-  color: #349682;
+  color: #333;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
